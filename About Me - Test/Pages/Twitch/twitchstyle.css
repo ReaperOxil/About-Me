@@ -1,0 +1,46 @@
+#categories{
+    display:flex;
+    height: 350px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.title{
+    font-size: 100px;
+}
+.tags{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    background-color: rgb(92, 92, 92);
+    height: 350px;
+    color: white;
+    padding-left: 20px;
+    margin:0;
+}
+#twitch{
+    font-family:"Youtube";
+    color: white;
+    background-color: #6441a5;
+}
+#youtube{
+    font-family:"Youtube";
+    transition: all 0.3s ease;
+}
+#aboutme{
+    font-family: "Youtube";
+    transition: all 0.3s ease;
+}
+#youtube:hover{
+    color: rgb(40 40 40);
+    background-color: rgb(255, 0, 0);
+    box-shadow: 20px 0 20px #8a0f0f;
+    width: 700px;
+    font-size: 100px;
+}
+#aboutme:hover{
+    color: white;
+    background-color: #272727;
+    box-shadow: 20px 0 20px #1c122e;
+    width: 700px;
+    font-size: 100px;
+}

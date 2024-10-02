@@ -1,0 +1,91 @@
+
+#categories{
+    display:flex;
+    height: 350px;
+    justify-content: space-around;
+    flex-direction: column;
+    position: fixed;    
+}
+.title{
+    font-size: 100px;
+}
+.tags{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    background-color: rgb(92, 92, 92);
+    height: 350px;
+    color: white;
+    padding-left: 20px;
+    margin:0;
+}
+#youtube{
+    font-family: "Youtube";
+    background-color: red;
+}
+#twitch{
+    font-family:"Youtube";
+    transition: all 0.3s ease;
+}
+#aboutme{
+    font-family: "Youtube";
+    transition: all 0.3s ease;
+}
+#twitch:hover{
+    color: white;
+    background-color: #6441a5;
+    box-shadow: 20px 0 20px #1c122e;
+    width: 700px;
+    font-size: 100px;
+}
+#aboutme:hover{
+    color: white;
+    background-color: #272727;
+    box-shadow: 20px 0 20px #1c122e;
+    width: 700px;
+    font-size: 100px;
+}
+.maincard{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    border-bottom: white solid 10px;
+    margin-left: 6.4%;
+}
+#profile_picture{
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 50px;
+    animation-name: photo;
+    animation-duration: 2s;
+}
+#title{
+    font-size: 100px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    animation-name: maincard_text;
+    animation-duration: 2s;
+}
+#subtext{
+    font-size: 20px;
+    margin-left: 50px;
+    animation-name: maincard_subtext;
+    animation-duration: 2s;
+}
+.videos{
+    height: 250px;
+    width: 500px;
+    margin-left: 50px;
+}
+.content{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    border-bottom: white solid 10px;
+    padding-bottom: 100px;
+    margin-left: 6.4%;
+}

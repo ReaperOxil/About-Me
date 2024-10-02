@@ -1,0 +1,12 @@
+@keyframes photo{
+    from{opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes maincard_text {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes maincard_subtext{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
